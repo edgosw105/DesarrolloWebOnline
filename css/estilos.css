@@ -41,10 +41,6 @@ h2
   margin-bottom: 40px;
 }
 
-ol
-{
-  margin: 0px;
-}
 
 .project
 {
@@ -82,7 +78,7 @@ ol
 
 .project strong
 {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 .project-title
@@ -100,7 +96,13 @@ ol
   width: 500px;
   /* display: inline-block; */
   /* margin: 0 auto; */
-  flex-shrink: 0;
+  /* flex-shrink: 0; */
+}
+
+.project-imageContainer
+{
+  width: 500px;
+  /* display: inline-block; */
 }
 
 .hero
@@ -173,11 +175,7 @@ ol
   height: inherit;
 }
 
-.project-imageContainer
-{
-  width: 500px;
-  display: inline-block;
-}
+
 
 ol, ul
 {
@@ -342,7 +340,7 @@ figure
 .container
 {
   /* background-color: #00FF00; */
-  width: 1000px;
+  width: 1200px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
